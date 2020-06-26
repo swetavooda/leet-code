@@ -1,3 +1,7 @@
+// problem link: https://leetcode.com/problems/find-the-duplicate-number/
+
+// Time complexity O(n)
+// hare-Tortoise algorithm
 class Solution {
     public int findDuplicate(int[] nums) {
         if(nums.length==2)
